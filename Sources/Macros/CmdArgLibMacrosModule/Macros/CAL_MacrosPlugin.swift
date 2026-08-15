@@ -1,0 +1,18 @@
+//  Copyright (c) 2025-2026 Psummerland2 LLC.
+//  All rights reserved.
+//
+//  This Source Code Form is subject to the terms of the Mozilla Public
+//  License, v. 2.0. If a copy of the MPL was not distributed with this
+//  file, You can obtain one at https://mozilla.org/MPL/2.0.
+
+import SwiftCompilerPlugin
+import SwiftSyntaxMacros
+import CmdArgLibMacroSupport
+
+@main
+struct CAL_MacrosPlugin: CompilerPlugin {
+    let providingMacros: [Macro.Type] = [
+        MainFunctionMacro.self,
+        CommandNodeMacro.self,
+    ]
+}
