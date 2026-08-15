@@ -1,5 +1,5 @@
 <!-- 
-//  Copyright (c) 2025-2026 Psummerland2 LLC.
+//  Copyright (c) 2025-2026 Peter Buenafuente Summerland.
 //  All rights reserved.
 //
 //  This Source Code Form is subject to the terms of the Mozilla Public
@@ -9,7 +9,7 @@
 
 ## CmdArgLibMacros
 
-CmdArgLibMacros is part of the [Command Argument Library](https://github.com/psummerland2/cmd-arg-lib.git). 
+CmdArgLibMacros is part of the [Command Argument Library](https://github.com/ouser4629/cmd-arg-lib.git). 
 
 It exports two peer macros, `MainFunctionMacro` and `CommandNodeMacro`, that derive command-line interfaces
 directly from annotated Swift function declarations.
@@ -24,7 +24,7 @@ The macros generate code that performs argument parsing and dispatches to the an
 
 1. Define a struct annotated with @main.
 
-2. Add a static [command function](https://github.com/psummerland2/cmd-arg-lib/blob/main/REFERENCE.md/#command-function) that implements program logic. 
+2. Add a static [command function](https://github.com/ouser4629/cmd-arg-lib/blob/main/REFERENCE.md/#command-function) that implements program logic. 
 
 3. Annotate the command function with '@MainFunctionMacro'. E.g.,
 
@@ -94,7 +94,7 @@ See "print-m1 --help" for more information.
 
 2. Define a struct annotated with @main.
 
-3. Add a static [stateful command function](https://github.com/psummerland2/cmd-arg-lib/blob/main/REFERENCE.md/#stateful-command-function) that implements program logic. 
+3. Add a static [stateful command function](https://github.com/ouser4629/cmd-arg-lib/blob/main/REFERENCE.md/#stateful-command-function) that implements program logic. 
 
 4. Add a static list of childNodes. E.g.,
 
@@ -239,7 +239,7 @@ The macro should have as few arguments as possible, and parsing semantics should
 
 ## Examples
 
-[Command Argument Library](https://github.com/psummerland2/cmd-arg-lib.git) has extensive examples
+[Command Argument Library](https://github.com/ouser4629/cmd-arg-lib.git) has extensive examples
 that show how to use `CmdArgLibMacros`.
 
 ---
